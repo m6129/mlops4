@@ -1,0 +1,9 @@
+from catboost import CatBoostRegressor
+import pandas as pd
+mlflow.set_tracking_uri("http://0.0.0.0:5000")
+mlflow.set_experiment("cost split MinMax")
+
+with mlflow.start_run():
+    modelR = CatBoostRegressor(verbose=False)
+    modelR.fit(X_train, y_train) #обучение для определения прогнозируемых метрик
+    modelR.fit(X, y) #сразу обучаем модель

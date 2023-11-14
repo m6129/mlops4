@@ -4,7 +4,7 @@ from mlflow.tracking import MlflowClient
 from sklearn.model_selection import TimeSeriesSplit
 
 mlflow.set_tracking_uri("http://0.0.0.0:5000")
-mlflow.set_experiment("cost MinMaxScaler")
+mlflow.set_experiment("cost split MinMax")
 
 with mlflow.start_run():
     # Чтение данных из файла
@@ -22,3 +22,24 @@ with mlflow.start_run():
         "/home/an/mlops4/ml_project/The_Main_Refuge_of_Hope/datasets_split/cost_y_train.parquet")
     y_valid.to_parquet(
         "/home/an/mlops4/ml_project/The_Main_Refuge_of_Hope/datasets_split/cost_y_valid.parquet")
+
+ # Логирование артефактов
+    mlflow.log_artifact(
+        local_path="/home/an/mlops4/ml_project/The_Main_Refuge_of_Hope/4_data_split/cost_X_train.parquet", 
+        artifact_path="cost_X_train MinMax"
+        )
+    mlflow.log_artifact(
+        local_path="/home/an/mlops4/ml_project/The_Main_Refuge_of_Hope/4_data_split/cost_y_train.parquet", 
+        artifact_path="cost_y_train MinMax"
+        )
+    mlflow.log_artifact(
+        local_path="/home/an/mlops4/ml_project/The_Main_Refuge_of_Hope/4_data_split/cost_X_valid.parquet", 
+        artifact_path="cost_X_valid MinMax"
+        )
+    mlflow.log_artifact(
+        local_path="/home/an/mlops4/ml_project/The_Main_Refuge_of_Hope/4_data_split/cost_y_valid.parquet", 
+        artifact_path="cost_y_valid MinMax"
+        )
+
+# Завершение MLflow запуска
+mlflow.end_run()
