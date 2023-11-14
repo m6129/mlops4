@@ -1,27 +1,43 @@
 # mlops4
 Для 4 ДЗ по MLOps
+------  
+Вам необходимо выбрать один из пройденных инструментов автоматизации процесса машинного обучения (DVC/ClearML / MLFlow / Airflow), реализовать с его помощью процесс обучения любой выбранной вами (или созданной самостоятельно) модели. В зависимости от используемого инструмента определить решаемые экспериментом задачи - работа с различными датасетами, либо подбор оптимальных гиперпараметров, либо сравнение результатов обработки данных различными алгоритмами, либо др. Пояснить цель и ход своих экспериментов.
 
+В качестве решения прикрепить скриншоты созданных задач в выбранном инструменте, файлы скриптов  по работе с данными и обучению модели, а также файл с небольшим пояснением содержимого экспериментов.
+Критерии оценивания:
+    Скриншоты созданных задач в выбранном инструменте - 10 баллов
+    Файлы скриптов по работе с данными и обучению модели - 15 баллов
+    Файл с небольшим пояснением содержимого экспериментов - 5 баллов
+------  
+
+_Цель эксперимента:_ Улучшить навыки работы с MLOps элементами, работы с библиотеками машинного обучения, сравнение результатов предобработки данных. 
+
+_Выводы:_  
 
 связка MLflow с Aiflow, считаю для повседневных задач и экспериментов не подходит, слишком трудоемкий процесс получается для разбиения на этапы  
 
-**Стек**
+**Стек**  
 MLflow  https://mlflow.org/  
 Airflow  https://airflow.apache.org/  
 VSCode подключенный к виртуальной машине по SSH по ssh  https://code.visualstudio.com/    
 Ubuntu Server развёрнутая на виртуальной машине https://ubuntu.com/download/server  
 Oracle VirtualBox https://www.virtualbox.org/  
-Модель: CatBoost https://catboost.ai/   https://github.com/catboost
+Модель: CatBoost https://catboost.ai/   https://github.com/catboost  
 sktime https://github.com/sktime/sktime
 
- _В планах_  
-Ambrosia https://github.com/MobileTeleSystems/Ambrosia
+ _В планах(не выполненно ещё)_  
+Ambrosia https://github.com/MobileTeleSystems/Ambrosia  
+docker https://www.docker.com/  https://hub.docker.com/  
+Jupiter Notebook (в докере) https://jupyter.org/
+etna https://github.com/tinkoff-ai/etna  
+DataSpell https://www.jetbrains.com/ru-ru/dataspell/download/?ysclid=loymx6ysih390172124#section=linux но он только на 30 дней, стоит ли учиться....
 
 
 **Пометки**  
 
 **MLflow**  
-mlflow.set_tracking_uri("http://localhost:5000")  
-в случае когда MLflow установлдена на локальной системе,
+mlflow.set_tracking_uri("http://localhost:5000") прописывается 
+в случае когда MLflow установлена на локальной системе,
 если MLflow установлена в виртуальной машине тогда http://0.0.0.0:5000
 
 

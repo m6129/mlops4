@@ -25,21 +25,8 @@ with mlflow.start_run():
 
  # Логирование артефактов
     mlflow.log_artifact(
-        local_path="/home/an/mlops4/ml_project/The_Main_Refuge_of_Hope/4_data_split/cost_X_train.parquet", 
-        artifact_path="cost_X_train MinMax"
+        local_path="/home/an/mlops4/ml_project/The_Main_Refuge_of_Hope/4_data_split/costMinMax_tscv.py", 
+        artifact_path="split tscv MinMax"
         )
-    mlflow.log_artifact(
-        local_path="/home/an/mlops4/ml_project/The_Main_Refuge_of_Hope/4_data_split/cost_y_train.parquet", 
-        artifact_path="cost_y_train MinMax"
-        )
-    mlflow.log_artifact(
-        local_path="/home/an/mlops4/ml_project/The_Main_Refuge_of_Hope/4_data_split/cost_X_valid.parquet", 
-        artifact_path="cost_X_valid MinMax"
-        )
-    mlflow.log_artifact(
-        local_path="/home/an/mlops4/ml_project/The_Main_Refuge_of_Hope/4_data_split/cost_y_valid.parquet", 
-        artifact_path="cost_y_valid MinMax"
-        )
-
 # Завершение MLflow запуска
 mlflow.end_run()

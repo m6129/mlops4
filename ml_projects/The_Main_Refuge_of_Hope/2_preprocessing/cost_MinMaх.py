@@ -37,12 +37,9 @@ with mlflow.start_run():
 
     # Логирование артефактов
     mlflow.log_artifact(
-        local_path="/home/an/mlops4/ml_project/The_Main_Refuge_of_Hope/2_preprocessing/costX.parquet", 
+        local_path="/home/an/mlops4/ml_project/The_Main_Refuge_of_Hope/2_preprocessing/cost_MinMaх.py", 
         artifact_path="costX MinMax"
         )
-    mlflow.log_artifact(
-        local_path="/home/an/mlops4/ml_project/The_Main_Refuge_of_Hope/2_preprocessing/cost_y.parquet", 
-        artifact_path="cost_y MinMax")
 
 # Завершение MLflow запуска
 mlflow.end_run()

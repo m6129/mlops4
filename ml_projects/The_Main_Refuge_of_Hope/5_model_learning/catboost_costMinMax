@@ -1,9 +1,27 @@
 from catboost import CatBoostRegressor
 import pandas as pd
+import mlflow
+from mlflow.tracking import MlflowClient
+
 mlflow.set_tracking_uri("http://0.0.0.0:5000")
-mlflow.set_experiment("cost split MinMax")
+mlflow.set_experiment("cost Catboost MinMax")
 
 with mlflow.start_run():
+    X = pd.read_parquet('/home/an/mlops4/ml_project/The_Main_Refuge_of_Hope/0_get_data/cost.parquet')
+    y = pd.read_parquet('/home/an/mlops4/ml_project/The_Main_Refuge_of_Hope/0_get_data/cost.parquet')
+    X_train = pd.read_parquet('/home/an/mlops4/ml_project/The_Main_Refuge_of_Hope/datasets_split/cost_X_train.parquet')
+    y_train = pd.read_parquet('/home/an/mlops4/ml_project/The_Main_Refuge_of_Hope/datasets_split/cost_y_train.parquet')
+    
+    
     modelR = CatBoostRegressor(verbose=False)
     modelR.fit(X_train, y_train) #обучение для определения прогнозируемых метрик
+    modelR.save_model('/home/an/mlops4/ml_project/The_Main_Refuge_of_Hope/load_models/catboost_cost_Min_Max_valid.bin')
     modelR.fit(X, y) #сразу обучаем модель
+    modelR.save_model('/home/an/mlops4/ml_project/The_Main_Refuge_of_Hope/load_models/catboost_cost_Min_Max.bin')
+    
+     # Логирование артефактов 
+    mlflow.log_artifact(
+        local_path="/home/an/mlops4/ml_project/The_Main_Refuge_of_Hope/5_model_learning/catboost_costMinMax.py", 
+        artifact_path="Catboost cost MinMax"
+        )
+mlflow.end_run()
