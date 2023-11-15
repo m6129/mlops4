@@ -20,14 +20,18 @@ sktime https://github.com/sktime/sktime
  _В планах(не выполненно ещё)_  
 Ambrosia https://github.com/MobileTeleSystems/Ambrosia  
 docker https://www.docker.com/  https://hub.docker.com/  
-Jupiter Notebook (в докере) https://jupyter.org/
+Jupiter Notebook, Lab, Viola (в докере) https://jupyter.org/
 etna https://github.com/tinkoff-ai/etna  
 DataSpell https://www.jetbrains.com/ru-ru/dataspell/download/?ysclid=loymx6ysih390172124#section=linux но он только на 30 дней, стоит ли учиться....
 
 Данные были предоставлены для соревнований:  
 TGT https://tgtdiagnostics.com/ru/ #лабораторные  
 GPN https://gpn-trade.ru/ #синтетические
-**Пометки**  
+
+---
+**Пометки:**  
+---  
+
 
 **MLflow**  
 mlflow.set_tracking_uri("http://localhost:5000") прописывается 
@@ -55,5 +59,8 @@ mlflow.set_tracking_uri("http://localhost:5000") прописывается
 ![Oracle VM с запущенной машиной](image-4.png)
 **Запущенный airflow в окне браузера с двумя ацикличными графами**
 ![Запущенный airflow в окне браузера с двумя ацикличными графами](image.png)
-**Запущенный Mlflow, на которм мы видим как ошибно прпоисывать set_experiment в каждый процесс**
-![Запущенный Mlflow, на которм мы видим как ошибно прпоисывать set_experiment в каждый процесс](image-2.png)
+**Запущенный Mlflow, на которм мы видим как ошибочно решение прописывать set_experiment в каждый процесс**
+![Запущенный Mlflow, на которм мы видим как ошибочно решение прописывать set_experiment в каждый процесс](image-2.png)
+**Запущенный Jupiter Lab развернутый в docker контейнере**
+![Запущенный Jupiter Lab развернутый в docker контейнере](image-6.png)
+![Терминал с запущенным Jupiter Lab в docker контейнере](image-7.png)
