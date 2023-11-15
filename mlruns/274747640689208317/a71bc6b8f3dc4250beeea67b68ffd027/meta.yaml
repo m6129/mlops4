@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/274747640689208317/a71bc6b8f3dc4250beeea67b68ffd027/artifacts
+end_time: 1700024229508
+entry_point_name: ''
+experiment_id: '274747640689208317'
+lifecycle_stage: active
+run_id: a71bc6b8f3dc4250beeea67b68ffd027
+run_name: rumbling-chimp-463
+run_uuid: a71bc6b8f3dc4250beeea67b68ffd027
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700024227082
+status: 3
+tags: []
+user_id: an

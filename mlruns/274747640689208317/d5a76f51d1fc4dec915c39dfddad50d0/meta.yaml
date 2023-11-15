@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/274747640689208317/d5a76f51d1fc4dec915c39dfddad50d0/artifacts
+end_time: 1700024391021
+entry_point_name: ''
+experiment_id: '274747640689208317'
+lifecycle_stage: active
+run_id: d5a76f51d1fc4dec915c39dfddad50d0
+run_name: masked-panda-818
+run_uuid: d5a76f51d1fc4dec915c39dfddad50d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700024389099
+status: 4
+tags: []
+user_id: an

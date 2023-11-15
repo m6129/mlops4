@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/924831193118015145/accd4f090b0a47f9b4a8864c189131d1/artifacts
+end_time: 1700033554600
+entry_point_name: ''
+experiment_id: '924831193118015145'
+lifecycle_stage: active
+run_id: accd4f090b0a47f9b4a8864c189131d1
+run_name: nimble-owl-444
+run_uuid: accd4f090b0a47f9b4a8864c189131d1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700033551868
+status: 3
+tags: []
+user_id: an

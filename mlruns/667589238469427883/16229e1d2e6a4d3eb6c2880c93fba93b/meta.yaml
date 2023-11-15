@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/667589238469427883/16229e1d2e6a4d3eb6c2880c93fba93b/artifacts
+end_time: 1700024292377
+entry_point_name: ''
+experiment_id: '667589238469427883'
+lifecycle_stage: active
+run_id: 16229e1d2e6a4d3eb6c2880c93fba93b
+run_name: rumbling-foal-766
+run_uuid: 16229e1d2e6a4d3eb6c2880c93fba93b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700024292357
+status: 4
+tags: []
+user_id: an

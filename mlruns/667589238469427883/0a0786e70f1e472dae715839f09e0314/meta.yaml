@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/667589238469427883/0a0786e70f1e472dae715839f09e0314/artifacts
+end_time: 1700024665038
+entry_point_name: ''
+experiment_id: '667589238469427883'
+lifecycle_stage: active
+run_id: 0a0786e70f1e472dae715839f09e0314
+run_name: bustling-rook-326
+run_uuid: 0a0786e70f1e472dae715839f09e0314
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700024665019
+status: 4
+tags: []
+user_id: an

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/274747640689208317/be6044777556419a81cc9793413e38a0/artifacts
+end_time: 1700022431789
+entry_point_name: ''
+experiment_id: '274747640689208317'
+lifecycle_stage: active
+run_id: be6044777556419a81cc9793413e38a0
+run_name: skillful-boar-505
+run_uuid: be6044777556419a81cc9793413e38a0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700022420893
+status: 4
+tags: []
+user_id: an

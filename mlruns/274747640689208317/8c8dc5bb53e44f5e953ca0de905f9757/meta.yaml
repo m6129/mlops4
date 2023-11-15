@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/274747640689208317/8c8dc5bb53e44f5e953ca0de905f9757/artifacts
+end_time: 1700024420259
+entry_point_name: ''
+experiment_id: '274747640689208317'
+lifecycle_stage: active
+run_id: 8c8dc5bb53e44f5e953ca0de905f9757
+run_name: powerful-hound-50
+run_uuid: 8c8dc5bb53e44f5e953ca0de905f9757
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700024417947
+status: 4
+tags: []
+user_id: an

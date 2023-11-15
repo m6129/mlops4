@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/667589238469427883/27b1a43b281547ceac2ee64ec953b145/artifacts
+end_time: 1700024594956
+entry_point_name: ''
+experiment_id: '667589238469427883'
+lifecycle_stage: active
+run_id: 27b1a43b281547ceac2ee64ec953b145
+run_name: tasteful-wolf-754
+run_uuid: 27b1a43b281547ceac2ee64ec953b145
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700024594932
+status: 4
+tags: []
+user_id: an

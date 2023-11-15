@@ -1,48 +1,39 @@
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 import mlflow
-from mlflow.tracking import MlflowClient
 
+# Set the MLflow tracking URI and experiment name
 mlflow.set_tracking_uri("http://0.0.0.0:5000")
 mlflow.set_experiment("cost MinMaxScaler")
 
+# Start a new MLflow run
 with mlflow.start_run():
-    # Чтение данных из файла
-    cost = pd.read_parquet('/home/an/mlops4/ml_project/The_Main_Refuge_of_Hope/0_get_data/cost.parquet')
-
-    # Преобразование данных (пример: нормализация значений 'cost')
+    # Read data from a Parquet file
+    cost = pd.read_parquet('/home/an/mlops4/ml_projects/The_Main_Refuge_of_Hope/0_get_data/df_cost.parquet')
+    
+    # Transform the data (example: normalize 'cost' column)
     scaler = MinMaxScaler()
     cost_normalized = scaler.fit_transform(cost[['cost']])
     cost['cost_normalized'] = cost_normalized
-    costMinMax = cost.set_index('date')
-    costMinMax['datetime_int'] = costMinMax['datetime'].astype(int)
-    X = costMinMax.drop(['datetime','cost'],axis=1)
+    cost['datetime_int'] = cost['date'].astype(int)
+    X = cost.drop(['date', 'cost'], axis=1)
     X = pd.get_dummies(X)
-    y = costMinMax['cost']
-
-    # Логирование преобразованных данных
+    y = cost['cost']
+    y = pd.DataFrame(y)
+    
+    # Log the transformation type
     mlflow.log_param("transformation", "Normalization")
-    mlflow.log_artifact(
-        local_path='/home/an/mlops4/ml_project/The_Main_Refuge_of_Hope/datasets_preprocessing/costX.parquet',
-        artifact_path='costMinMax X.parquet'
-        )
-    mlflow.log_artifact(
-        local_path='/home/an/mlops4/ml_project/The_Main_Refuge_of_Hope/datasets_preprocessing/costy.parquet',
-        artifact_path='costMinMax y.parquet'
-        )
-    X.to_parquet(
-        "/home/an/mlops4/ml_project/The_Main_Refuge_of_Hope/datasets_preprocessing/costX.parquet")
-    y.to_parquet(
-        "/home/an/mlops4/ml_project/The_Main_Refuge_of_Hope/datasets_preprocessing/cost_y.parquet")
+    
+    # Log additional information about the transformation
+    mlflow.log_param("normalized_columns", ["cost"])
 
-    # Логирование артефактов
-    mlflow.log_artifact(
-        local_path="/home/an/mlops4/ml_project/The_Main_Refuge_of_Hope/2_preprocessing/cost_MinMaх.py", 
-        artifact_path="costX MinMax"
-        )
+    # Save the transformed data to Parquet files
+    X.to_parquet("costX.parquet")
+    y.to_parquet("cost_y.parquet")
 
-# Завершение MLflow запуска
-mlflow.end_run()
+# End the MLflow run
+mlflow.end_run()  
+
 
 '''Изменения:
 

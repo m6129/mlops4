@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/500077078506254971
+creation_time: 1700026519717
+experiment_id: '500077078506254971'
+last_update_time: 1700026519717
+lifecycle_stage: active
+name: cost split MinMax

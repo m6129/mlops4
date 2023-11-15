@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/924831193118015145/548855fe876a4532ad8058c7b1e99466/artifacts
+end_time: 1700033428322
+entry_point_name: ''
+experiment_id: '924831193118015145'
+lifecycle_stage: active
+run_id: 548855fe876a4532ad8058c7b1e99466
+run_name: glamorous-mare-656
+run_uuid: 548855fe876a4532ad8058c7b1e99466
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700033423231
+status: 4
+tags: []
+user_id: an
