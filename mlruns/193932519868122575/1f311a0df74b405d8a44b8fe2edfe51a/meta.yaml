@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/193932519868122575/1f311a0df74b405d8a44b8fe2edfe51a/artifacts
+end_time: 1700037924668
+entry_point_name: ''
+experiment_id: '193932519868122575'
+lifecycle_stage: active
+run_id: 1f311a0df74b405d8a44b8fe2edfe51a
+run_name: thundering-deer-750
+run_uuid: 1f311a0df74b405d8a44b8fe2edfe51a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700037924085
+status: 3
+tags: []
+user_id: an

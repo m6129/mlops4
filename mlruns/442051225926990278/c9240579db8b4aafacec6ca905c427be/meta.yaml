@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/442051225926990278/c9240579db8b4aafacec6ca905c427be/artifacts
+end_time: 1700038379524
+entry_point_name: ''
+experiment_id: '442051225926990278'
+lifecycle_stage: active
+run_id: c9240579db8b4aafacec6ca905c427be
+run_name: nosy-bat-399
+run_uuid: c9240579db8b4aafacec6ca905c427be
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700038376372
+status: 3
+tags: []
+user_id: an

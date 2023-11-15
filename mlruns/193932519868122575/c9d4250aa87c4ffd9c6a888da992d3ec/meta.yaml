@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/193932519868122575/c9d4250aa87c4ffd9c6a888da992d3ec/artifacts
+end_time: 1700038049664
+entry_point_name: ''
+experiment_id: '193932519868122575'
+lifecycle_stage: active
+run_id: c9d4250aa87c4ffd9c6a888da992d3ec
+run_name: bright-roo-867
+run_uuid: c9d4250aa87c4ffd9c6a888da992d3ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700038049273
+status: 3
+tags: []
+user_id: an

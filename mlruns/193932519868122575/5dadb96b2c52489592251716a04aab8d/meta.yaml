@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/193932519868122575/5dadb96b2c52489592251716a04aab8d/artifacts
+end_time: 1700038009006
+entry_point_name: ''
+experiment_id: '193932519868122575'
+lifecycle_stage: active
+run_id: 5dadb96b2c52489592251716a04aab8d
+run_name: traveling-gull-795
+run_uuid: 5dadb96b2c52489592251716a04aab8d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700038008647
+status: 3
+tags: []
+user_id: an

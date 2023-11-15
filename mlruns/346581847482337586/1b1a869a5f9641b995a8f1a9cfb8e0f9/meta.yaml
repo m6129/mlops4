@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/346581847482337586/1b1a869a5f9641b995a8f1a9cfb8e0f9/artifacts
+end_time: 1700038385387
+entry_point_name: ''
+experiment_id: '346581847482337586'
+lifecycle_stage: active
+run_id: 1b1a869a5f9641b995a8f1a9cfb8e0f9
+run_name: marvelous-boar-750
+run_uuid: 1b1a869a5f9641b995a8f1a9cfb8e0f9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700038385351
+status: 3
+tags: []
+user_id: an

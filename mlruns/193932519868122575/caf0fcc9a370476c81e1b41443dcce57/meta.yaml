@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/193932519868122575/caf0fcc9a370476c81e1b41443dcce57/artifacts
+end_time: 1700037902308
+entry_point_name: ''
+experiment_id: '193932519868122575'
+lifecycle_stage: active
+run_id: caf0fcc9a370476c81e1b41443dcce57
+run_name: carefree-wolf-578
+run_uuid: caf0fcc9a370476c81e1b41443dcce57
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700037902131
+status: 4
+tags: []
+user_id: an

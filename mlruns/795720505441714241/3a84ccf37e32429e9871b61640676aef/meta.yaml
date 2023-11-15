@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/795720505441714241/3a84ccf37e32429e9871b61640676aef/artifacts
+end_time: 1700038014826
+entry_point_name: ''
+experiment_id: '795720505441714241'
+lifecycle_stage: active
+run_id: 3a84ccf37e32429e9871b61640676aef
+run_name: valuable-sow-205
+run_uuid: 3a84ccf37e32429e9871b61640676aef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700038014790
+status: 3
+tags: []
+user_id: an

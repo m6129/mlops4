@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/795720505441714241/33c14eb24d09445a841d9d98a0095e3f/artifacts
+end_time: 1700038056266
+entry_point_name: ''
+experiment_id: '795720505441714241'
+lifecycle_stage: active
+run_id: 33c14eb24d09445a841d9d98a0095e3f
+run_name: sneaky-slug-751
+run_uuid: 33c14eb24d09445a841d9d98a0095e3f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700038056236
+status: 3
+tags: []
+user_id: an

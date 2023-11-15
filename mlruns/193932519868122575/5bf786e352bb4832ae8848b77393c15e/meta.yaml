@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/193932519868122575/5bf786e352bb4832ae8848b77393c15e/artifacts
+end_time: 1700038023868
+entry_point_name: ''
+experiment_id: '193932519868122575'
+lifecycle_stage: active
+run_id: 5bf786e352bb4832ae8848b77393c15e
+run_name: funny-cod-460
+run_uuid: 5bf786e352bb4832ae8848b77393c15e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700038023485
+status: 3
+tags: []
+user_id: an
