@@ -15,14 +15,14 @@ VSCode подключенный к виртуальной машине по SSH 
 Ubuntu Server развёрнутая на виртуальной машине https://ubuntu.com/download/server  
 Oracle VirtualBox https://www.virtualbox.org/  
 Модель: CatBoost https://catboost.ai/   https://github.com/catboost  
-sktime https://github.com/sktime/sktime
+sktime https://github.com/sktime/sktime  
+docker https://www.docker.com/  https://hub.docker.com/  
+Jupiter Lab (в docker'е) https://jupyter.org/ https://hub.docker.com/r/jupyter/datascience-notebook
 
  _В планах(не выполненно ещё)_  
-Ambrosia https://github.com/MobileTeleSystems/Ambrosia  
-docker https://www.docker.com/  https://hub.docker.com/  
-Jupiter Notebook, Lab, Viola (в докере) https://jupyter.org/
+Ambrosia https://github.com/MobileTeleSystems/Ambrosia    
 etna https://github.com/tinkoff-ai/etna  
-DataSpell https://www.jetbrains.com/ru-ru/dataspell/download/?ysclid=loymx6ysih390172124#section=linux но он только на 30 дней, стоит ли учиться....
+
 
 Данные были предоставлены для соревнований:  
 TGT https://tgtdiagnostics.com/ru/ #лабораторные  
@@ -47,6 +47,15 @@ mlflow.set_tracking_uri("http://localhost:5000") прописывается
 хороший, но очень специфичный формат, как только ты выходишь за рамки ds,
 то сразу появляются проблемы(многие библиотеки не умеют с ним работать)  
 он сложен для частичной потоковой передачи данных и имеет сильную привязку к метаданным(теряет информацию при их повреждении)
+
+**DataSpell от JetBrains**
+тот же самый Jupiter Notebook, только с функционалом присущий IDE JetBrains(много тем, автоимпорт, TODO и прочее). В том числе и минусами: нужно привыкать, настраивать и разбираться перед первым проектом, сворачивание ячеек как в google colab не реализовано. Бесплатной версии нет. Только демоверсия на 30 дней за электронную почту.
+  
+  **Ambrosia**  
+На python выше 3.8.16 не устанавливается.
+
+**Jupiter Notebook в docker**  
+нужно не только при запуске правильно настроить соединение с папкой вне docker, но и всегда сохранять ноутбуки перед остановкой контейнера
 
 **Скриншоты**
 **Рабочий терминал подлюченный к VM с запущенным Airflow и MLflow**
