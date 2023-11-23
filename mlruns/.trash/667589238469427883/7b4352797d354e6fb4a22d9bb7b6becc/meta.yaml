@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/667589238469427883/7b4352797d354e6fb4a22d9bb7b6becc/artifacts
+deleted_time: 1700141228167
+end_time: 1700025180492
+entry_point_name: ''
+experiment_id: '667589238469427883'
+lifecycle_stage: deleted
+run_id: 7b4352797d354e6fb4a22d9bb7b6becc
+run_name: stylish-wasp-791
+run_uuid: 7b4352797d354e6fb4a22d9bb7b6becc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700025180440
+status: 4
+tags: []
+user_id: an

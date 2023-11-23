@@ -21,7 +21,8 @@ Jupiter Lab (в docker'е) https://jupyter.org/ https://hub.docker.com/r/jupyter
 
  _В планах(не выполненно ещё)_  
 Ambrosia https://github.com/MobileTeleSystems/Ambrosia    
-etna https://github.com/tinkoff-ai/etna  
+etna https://github.com/tinkoff-ai/etna 
+наладить связь mlflow и jupiter notebook развернутым на dcoker 
 
 
 Данные были предоставлены для соревнований:  
@@ -56,8 +57,11 @@ mlflow.set_tracking_uri("http://localhost:5000") прописывается
 
 **Jupiter Notebook в docker**  
 нужно не только при запуске правильно настроить соединение с папкой вне docker, но и всегда сохранять ноутбуки перед остановкой контейнера
-
+  
+---
 **Скриншоты**
+---  
+
 **Рабочий терминал подлюченный к VM с запущенным Airflow и MLflow**
 ![Рабочий терминал подлюченный к VM с запущенным Airflow и MLflow](image-1.png)
 **VSСode подключенный к виртуальной машине по ssh**

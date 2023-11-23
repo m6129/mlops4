@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/274747640689208317/eb25721a0e4f422bb78b9778c090f785/artifacts
+deleted_time: 1700141231234
+end_time: 1700023529808
+entry_point_name: ''
+experiment_id: '274747640689208317'
+lifecycle_stage: deleted
+run_id: eb25721a0e4f422bb78b9778c090f785
+run_name: peaceful-shrew-601
+run_uuid: eb25721a0e4f422bb78b9778c090f785
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700023529797
+status: 4
+tags: []
+user_id: an

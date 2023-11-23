@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/667589238469427883/137bd96e7c2c43c89c9b3bda9a37cacb/artifacts
+deleted_time: 1700141228167
+end_time: 1700025068705
+entry_point_name: ''
+experiment_id: '667589238469427883'
+lifecycle_stage: deleted
+run_id: 137bd96e7c2c43c89c9b3bda9a37cacb
+run_name: mysterious-shrew-429
+run_uuid: 137bd96e7c2c43c89c9b3bda9a37cacb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700025068641
+status: 4
+tags: []
+user_id: an

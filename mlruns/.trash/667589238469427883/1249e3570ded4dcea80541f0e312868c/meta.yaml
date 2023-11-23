@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/667589238469427883/1249e3570ded4dcea80541f0e312868c/artifacts
+deleted_time: 1700141228167
+end_time: 1700024362368
+entry_point_name: ''
+experiment_id: '667589238469427883'
+lifecycle_stage: deleted
+run_id: 1249e3570ded4dcea80541f0e312868c
+run_name: fortunate-lynx-818
+run_uuid: 1249e3570ded4dcea80541f0e312868c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700024362345
+status: 4
+tags: []
+user_id: an

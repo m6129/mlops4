@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/667589238469427883/fc8d64fead274bbabb5dc388c2ba7874/artifacts
+deleted_time: 1700141228167
+end_time: 1700026127155
+entry_point_name: ''
+experiment_id: '667589238469427883'
+lifecycle_stage: deleted
+run_id: fc8d64fead274bbabb5dc388c2ba7874
+run_name: gaudy-stork-314
+run_uuid: fc8d64fead274bbabb5dc388c2ba7874
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700026127098
+status: 4
+tags: []
+user_id: an

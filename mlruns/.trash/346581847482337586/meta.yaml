@@ -1,0 +1,7 @@
+artifact_location: mlflow-artifacts:/346581847482337586
+creation_time: 1700037943719
+experiment_id: '346581847482337586'
+last_update_time: 1700141213615
+lifecycle_stage: deleted
+name: train_test_split
+tags: {}

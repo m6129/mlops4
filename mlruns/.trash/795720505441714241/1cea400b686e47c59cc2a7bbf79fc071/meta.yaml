@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/795720505441714241/1cea400b686e47c59cc2a7bbf79fc071/artifacts
+deleted_time: 1700141210861
+end_time: 1700039308837
+entry_point_name: ''
+experiment_id: '795720505441714241'
+lifecycle_stage: deleted
+run_id: 1cea400b686e47c59cc2a7bbf79fc071
+run_name: fun-wasp-804
+run_uuid: 1cea400b686e47c59cc2a7bbf79fc071
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700039308755
+status: 3
+tags: []
+user_id: an

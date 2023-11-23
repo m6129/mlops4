@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/667589238469427883/7d645c0a0a9a42e589c80c0b8b041dc9/artifacts
+deleted_time: 1700141228167
+end_time: 1700026439649
+entry_point_name: ''
+experiment_id: '667589238469427883'
+lifecycle_stage: deleted
+run_id: 7d645c0a0a9a42e589c80c0b8b041dc9
+run_name: intrigued-toad-229
+run_uuid: 7d645c0a0a9a42e589c80c0b8b041dc9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700026439592
+status: 3
+tags: []
+user_id: an

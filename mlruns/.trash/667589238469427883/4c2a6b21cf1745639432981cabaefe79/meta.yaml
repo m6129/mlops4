@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/667589238469427883/4c2a6b21cf1745639432981cabaefe79/artifacts
+deleted_time: 1700141228167
+end_time: 1700025998451
+entry_point_name: ''
+experiment_id: '667589238469427883'
+lifecycle_stage: deleted
+run_id: 4c2a6b21cf1745639432981cabaefe79
+run_name: casual-bass-818
+run_uuid: 4c2a6b21cf1745639432981cabaefe79
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700025998407
+status: 4
+tags: []
+user_id: an

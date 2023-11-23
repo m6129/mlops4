@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/667589238469427883/2563f0801f3949de81e31f14a66b7eb3/artifacts
+deleted_time: 1700141228167
+end_time: 1700025082181
+entry_point_name: ''
+experiment_id: '667589238469427883'
+lifecycle_stage: deleted
+run_id: 2563f0801f3949de81e31f14a66b7eb3
+run_name: wistful-moose-733
+run_uuid: 2563f0801f3949de81e31f14a66b7eb3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700025082151
+status: 4
+tags: []
+user_id: an

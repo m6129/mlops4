@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/795720505441714241/0ccc4eb2622c4d6c8cd7b5ff0add76bb/artifacts
+deleted_time: 1700141210861
+end_time: 1700038029749
+entry_point_name: ''
+experiment_id: '795720505441714241'
+lifecycle_stage: deleted
+run_id: 0ccc4eb2622c4d6c8cd7b5ff0add76bb
+run_name: fearless-skink-73
+run_uuid: 0ccc4eb2622c4d6c8cd7b5ff0add76bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700038029714
+status: 3
+tags: []
+user_id: an

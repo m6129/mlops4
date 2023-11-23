@@ -1,0 +1,7 @@
+artifact_location: mlflow-artifacts:/667589238469427883
+creation_time: 1700024292273
+experiment_id: '667589238469427883'
+last_update_time: 1700141228167
+lifecycle_stage: deleted
+name: cost MinMaxScaler
+tags: {}

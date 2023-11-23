@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/667589238469427883/ffdaca6a58a244be940e3e3891d52714/artifacts
+deleted_time: 1700141228167
+end_time: 1700024798427
+entry_point_name: ''
+experiment_id: '667589238469427883'
+lifecycle_stage: deleted
+run_id: ffdaca6a58a244be940e3e3891d52714
+run_name: big-squid-246
+run_uuid: ffdaca6a58a244be940e3e3891d52714
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700024798406
+status: 4
+tags: []
+user_id: an

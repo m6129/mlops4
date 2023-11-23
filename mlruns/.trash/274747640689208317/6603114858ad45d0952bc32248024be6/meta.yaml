@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/274747640689208317/6603114858ad45d0952bc32248024be6/artifacts
+deleted_time: 1700141231234
+end_time: 1700024690591
+entry_point_name: ''
+experiment_id: '274747640689208317'
+lifecycle_stage: deleted
+run_id: 6603114858ad45d0952bc32248024be6
+run_name: upset-boar-570
+run_uuid: 6603114858ad45d0952bc32248024be6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700024689192
+status: 3
+tags: []
+user_id: an

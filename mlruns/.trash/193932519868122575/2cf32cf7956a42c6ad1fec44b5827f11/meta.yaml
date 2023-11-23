@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/193932519868122575/2cf32cf7956a42c6ad1fec44b5827f11/artifacts
+deleted_time: 1700141216295
+end_time: 1700038308112
+entry_point_name: ''
+experiment_id: '193932519868122575'
+lifecycle_stage: deleted
+run_id: 2cf32cf7956a42c6ad1fec44b5827f11
+run_name: vaunted-kite-271
+run_uuid: 2cf32cf7956a42c6ad1fec44b5827f11
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700038307802
+status: 3
+tags: []
+user_id: an

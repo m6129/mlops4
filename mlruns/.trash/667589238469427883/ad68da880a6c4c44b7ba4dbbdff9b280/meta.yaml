@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/667589238469427883/ad68da880a6c4c44b7ba4dbbdff9b280/artifacts
+deleted_time: 1700141228167
+end_time: 1700026145972
+entry_point_name: ''
+experiment_id: '667589238469427883'
+lifecycle_stage: deleted
+run_id: ad68da880a6c4c44b7ba4dbbdff9b280
+run_name: illustrious-mole-460
+run_uuid: ad68da880a6c4c44b7ba4dbbdff9b280
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700026145908
+status: 4
+tags: []
+user_id: an

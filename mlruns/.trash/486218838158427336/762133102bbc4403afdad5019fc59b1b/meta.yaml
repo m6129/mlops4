@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/486218838158427336/762133102bbc4403afdad5019fc59b1b/artifacts
+deleted_time: 1700141203904
+end_time: 1700038391266
+entry_point_name: ''
+experiment_id: '486218838158427336'
+lifecycle_stage: deleted
+run_id: 762133102bbc4403afdad5019fc59b1b
+run_name: orderly-hen-465
+run_uuid: 762133102bbc4403afdad5019fc59b1b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700038391137
+status: 3
+tags: []
+user_id: an

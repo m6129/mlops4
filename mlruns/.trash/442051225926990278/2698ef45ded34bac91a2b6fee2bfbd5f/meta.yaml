@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/442051225926990278/2698ef45ded34bac91a2b6fee2bfbd5f/artifacts
+deleted_time: 1700141219168
+end_time: 1700038304380
+entry_point_name: ''
+experiment_id: '442051225926990278'
+lifecycle_stage: deleted
+run_id: 2698ef45ded34bac91a2b6fee2bfbd5f
+run_name: auspicious-squid-131
+run_uuid: 2698ef45ded34bac91a2b6fee2bfbd5f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700038301132
+status: 3
+tags: []
+user_id: an

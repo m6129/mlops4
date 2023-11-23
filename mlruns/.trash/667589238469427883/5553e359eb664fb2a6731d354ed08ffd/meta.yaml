@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/667589238469427883/5553e359eb664fb2a6731d354ed08ffd/artifacts
+deleted_time: 1700141228167
+end_time: 1700024737800
+entry_point_name: ''
+experiment_id: '667589238469427883'
+lifecycle_stage: deleted
+run_id: 5553e359eb664fb2a6731d354ed08ffd
+run_name: colorful-yak-629
+run_uuid: 5553e359eb664fb2a6731d354ed08ffd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700024737775
+status: 4
+tags: []
+user_id: an

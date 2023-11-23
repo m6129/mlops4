@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/274747640689208317/be035f5320624da8ba6e0fd77cc5f154/artifacts
+deleted_time: 1700141231234
+end_time: 1700024176402
+entry_point_name: ''
+experiment_id: '274747640689208317'
+lifecycle_stage: deleted
+run_id: be035f5320624da8ba6e0fd77cc5f154
+run_name: amusing-asp-150
+run_uuid: be035f5320624da8ba6e0fd77cc5f154
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700024173394
+status: 4
+tags: []
+user_id: an

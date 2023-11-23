@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/346581847482337586/d938343085844664bc7dbbd166a22b5d/artifacts
+deleted_time: 1700141213615
+end_time: 1700037943824
+entry_point_name: ''
+experiment_id: '346581847482337586'
+lifecycle_stage: deleted
+run_id: d938343085844664bc7dbbd166a22b5d
+run_name: orderly-mare-72
+run_uuid: d938343085844664bc7dbbd166a22b5d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700037943754
+status: 3
+tags: []
+user_id: an

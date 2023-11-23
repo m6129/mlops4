@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/667589238469427883/6149a2a502f842758ddf44185a68db6d/artifacts
+deleted_time: 1700141228167
+end_time: 1700026116825
+entry_point_name: ''
+experiment_id: '667589238469427883'
+lifecycle_stage: deleted
+run_id: 6149a2a502f842758ddf44185a68db6d
+run_name: polite-hound-628
+run_uuid: 6149a2a502f842758ddf44185a68db6d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700026116749
+status: 4
+tags: []
+user_id: an

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/442051225926990278/ade3f95d3118435db3dd6a7191c7b437/artifacts
+deleted_time: 1700141219168
+end_time: 1700037861296
+entry_point_name: ''
+experiment_id: '442051225926990278'
+lifecycle_stage: deleted
+run_id: ade3f95d3118435db3dd6a7191c7b437
+run_name: worried-shoat-401
+run_uuid: ade3f95d3118435db3dd6a7191c7b437
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700037855998
+status: 3
+tags: []
+user_id: an
